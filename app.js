@@ -28,7 +28,7 @@ const cors = require('cors');
 app.use(cors());
 app.use(bodyParser.json());
 app.get('/enviar-notificaciontest', (req, res) => {
-    const registrationToken = 'dHzLG9SidEoVdvnPCGCaMF:APA91bG3DdXBWo-ay7_bXWfXeP1QSsnFTZosK2meqxPsqSgl9knkmAlO0kvL-0aWSJ0FHqS_1kpo5m76x3aP-WAncuP6bARl6h4o1KXV1kjMDdRZrZb3KhRKlpQcH_lGikAKz-MhHAQQ'; // Reemplázalo con el token real del dispositivo
+    const registrationToken = 'dHzLG9SxxxxxxxxxkvL-0aWxxxxxxxxxxxxxxxxxxxxdRZrZb3KhRKlpQcH_lGikAKz-MhHAQQ'; // Reemplázalo con el token real del dispositivo
   
     const message = {
       data: {
